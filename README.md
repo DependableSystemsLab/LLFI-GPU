@@ -8,6 +8,7 @@ INSTALLATION
 ===
 
 Tested on:
+
 1. Python 2.7
 2. NVCC v6.0.1
 3. CUDA SDK v6.0.37 
