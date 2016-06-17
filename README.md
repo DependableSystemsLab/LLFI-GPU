@@ -1,7 +1,7 @@
 LLFI-GPU
 ====
 
-LLFI-GPU is an LLVM based fault injection tool, that injects faults into the LLVM IR of the application source code.  The faults can be injected into specific program points, and the effect can be easily tracked back to the source code.  LLFI-GPU is typically used to map fault characteristics back to source code, and hence understand source level or program characteristics for various kinds of fault outcomes.
+LLFI-GPU is an LLVM based fault injection tool, that injects faults into the LLVM IR of the application source code of GPU CUDA kernels.  The faults can be injected into specific program points, and the effect can be easily tracked back to the source code.  LLFI-GPU is typically used to map fault characteristics back to source code, and hence understand source level or program characteristics for various kinds of fault outcomes.
 
 
 INSTALLATION
