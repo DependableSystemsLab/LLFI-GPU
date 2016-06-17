@@ -16,6 +16,7 @@ Tested on:
 5. Ubuntu 12.04 LTS x64
 
 Steps:
+
 1. Modify 'makeCommands'to compile target benchmark in profile.py and inject.py. Put benchmark input in 'inputParameters'.
 2. Configure fault injection parameters in '# FI Config' section in profile.py and inject.py.
 3. Add headers in target benchmark source code. This is shown in line 9-17 in example.cu. Label GPU kernel calls so that you can trace it. This is added in line 124 and 126 in exmple.cu.
@@ -27,4 +28,4 @@ Have fun!
 
 PAPER
 ===
-[Understanding Error Propagation in GPGPU Applications](http://blogs.ubc.ca/karthik/2016/06/15/understanding-error-propagation-in-gpgpu-applications/)
+[Understanding Error Propagation in GPGPU Applications (SC'16)](http://blogs.ubc.ca/karthik/2016/06/15/understanding-error-propagation-in-gpgpu-applications/)
