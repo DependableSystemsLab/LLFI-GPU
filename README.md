@@ -7,7 +7,7 @@ LLFI-GPU is an LLVM based fault injection tool, that injects faults into the LLV
 INSTALLATION
 ===
 
-Tested on:
+Dependencies (Tested):
 
 1. Python 2.7
 2. NVCC v6.0.1
