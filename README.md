@@ -7,10 +7,10 @@ LLFI-GPU is an LLVM based fault injection tool, that injects faults into the LLV
 INSTALLATION
 ===
 
-Tested on :
+Tested on:
 1. Python 2.7
 2. NVCC v6.0.1
-3. CUDA SDK v6.0.37
+3. CUDA SDK v6.0.37 
 4. LLVM 3.0
 5. Ubuntu 12.04 LTS x64
 
@@ -19,12 +19,11 @@ Steps:
 2. Configure fault injection parameters in '# FI Config' section in profile.py and inject.py.
 3. Add headers in target benchmark source code. This is shown in line 9-17 in example.cu. Label GPU kernel calls so that you can trace it. This is added in line 124 and 126 in exmple.cu.
 
-That's it. Run "python profile.py" and "python inject.py" to start fault injections. All fault injection logs and IR code (e.g. original and instrumented LLVM IR files) are located under folder called 'bamboo_fi'.
+That's it. Run "python profile.py" and "python inject.py" to start fault injections. All fault injection logs and IR files are located under folder called 'bamboo_fi'.
 
 Have fun!
 
 
 PAPER
 ===
-http://blogs.ubc.ca/karthik/2016/06/15/understanding-error-propagation-in-gpgpu-applications/
-
+[Understanding Error Propagation in GPGPU Applications](http://blogs.ubc.ca/karthik/2016/06/15/understanding-error-propagation-in-gpgpu-applications/)
