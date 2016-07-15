@@ -28,4 +28,4 @@ Have fun!
 
 PAPER
 ===
-[Understanding Error Propagation in GPGPU Applications (SC'16)](http://blogs.ubc.ca/karthik/2016/06/15/understanding-error-propagation-in-gpgpu-applications/)
+[Understanding Error Propagation in GPGPU Applications (SC'16)](http://blogs.ubc.ca/karthik/2016/06/20/understanding-error-propagation-in-gpgpu-applications/)
