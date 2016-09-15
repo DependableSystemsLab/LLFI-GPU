@@ -149,3 +149,4 @@ $ cat test.ptx
 
 This library has been developed for the purpose of software interoperability and used in compilation of [https://github.com/apc-llc/sixtrack](CERN SixTrack application).
 
+This is pass is derived from https://github.com/apc-llc/nvcc-llvm-ir
