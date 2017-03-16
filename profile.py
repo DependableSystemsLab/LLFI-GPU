@@ -45,7 +45,7 @@ def runProfile():
 
 	# Run profiling pass and dump bamboo.profile.txt
 	print ("***[GPGPU-BAMBOO]*** Generating Profiling Traces ... ")
-	os.system("rm bamboo.profile.txt")
+	os.system("rm bamboo.profile.txt > /dev/null 2>&1")
 	
 	goldenOutput = subprocess.check_output("./" +outputExeFile+ " " + inputParameters, shell=True)
 	print goldenOutput
