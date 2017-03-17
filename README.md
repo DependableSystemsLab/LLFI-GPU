@@ -23,6 +23,8 @@ Steps:
 
 That's it. Run "python profile.py" and "python inject.py" to start fault injections. All fault injection logs and IR files are located under folder called 'bamboo_fi'.
 
+We tested on NVIDIA K20 and GTX960 GPUs.
+
 Have fun!
 
 
